@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="zh-Hant-TW">
 <head>
@@ -86,7 +87,9 @@
     color: rgb(106, 76, 156);
     font-family: 'CircleFont', 'Noto Sans JP', serif;
   }
-
+  p{
+    font-family:'LXGW WenKai Mono TC';
+  }
   .container-fluid {
     width:  90%;
   }
@@ -141,6 +144,10 @@
     <div class="col twenty"><a href="../hw04/index.html">04</a></div>
     <div class="col twenty"><a href="../hw05/index.html">05</a></div>
     <div class="col twenty"><a href="../hw06/index.html">06</a></div>
+    <div class="col twenty"><a href="../hw06/index.html">07</a></div>
+    <div class="col twenty"><a href="../hw06/index.html">08</a></div>
+    <div class="col twenty"><a href="../hw06/index.html">09</a></div>
+    <div class="col twenty"><a href="../hw06/index.html">10</a></div>
   </div>
 
   <!-- ------------------------------------------------>
@@ -153,10 +160,19 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      一開始做這份作業的時候真的很痛苦，久未寫字讓我拿筆也拿不太住，寫了幾百個字就覺得手很不舒服，最初的字也是都歪歪扭扭，越寫越不爽。 但是寫到中間的時候覺得有抓到小時候寫字的感覺，寫出來的字也勉強能看了，寫得還算順手，但是我寫字的速度實在太慢了，一個字要花很多時間在上面，有時候一個字還會重新寫四五次，對手來說是一種災難性的勞動，最後在快撐不下去之前勉強把字都寫完了，真希望我這輩子以後不用再寫字。
+  </div>
+  <!-- ------------------------------------------------>
+  <div class="row hw12">
+    <div class="col-md-12 twenty">
+      <span>倉庫位置連結： </span>
+      <br>
+      <button type="button" onclick="location.href='https://github.com/tommy-125/ai2026s_homework/tree/main/hw01'">
+        前往 hw01 倉庫
+      </button>
+      <div>(p.s 請記得修改網址)</div>
     </div>
   </div>
-
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
@@ -169,22 +185,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -195,15 +211,41 @@
 
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    <div class="col-md-3 twenty">
+      <figcaption>1. 千字文 第1頁</figcaption>
+      <img class="withborder" src="./svg/U+5929.svg" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>2. 長恨歌 第1頁</figcaption>
+      <img class="withborder" src="./svg/U+6F22.svg" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>3. 洛神賦 第1頁</figcaption>
+      <img class="withborder" src="./svg/U+9EC3.svg" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>4. 詩經 第1頁</figcaption>
+      <img class="withborder" src="./svg/U+9752.svg" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>5. 注音、部首 第1頁</figcaption>
+      <img class="withborder" src="./svg/U+02C7.svg" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>6. 英文、數字 第1頁</figcaption>
+      <img class="withborder" src="./svg/U+0030.svg" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption> 7. 標點符號 第1頁</figcaption>
+      <img class="withborder" src="./svg/U+0021.svg" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption> 8. 姓氏名字號 第1頁</figcaption>
+      <img class="withborder" src="./svg/U+54F2.svg" width="100%">
     </div>
   </div>
 
   <!-- ------------------------------------------------>
-
   <!-- ------------------------------------------------>
 
 
@@ -252,4 +294,3 @@
 
 </body>
 </html>
-
